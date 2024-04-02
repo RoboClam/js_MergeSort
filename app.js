@@ -47,10 +47,10 @@ function mergeSort(input) {
     }
     
     let middleIndex = Math.floor(input.length / 2);
-    let left = input.slice(0, middleIndex);
+    let left = input.slice(0, middleIndex); // slice (start, end) end is "up to but not including"
     let right = input.slice(middleIndex);
     if(input.length > 2) {
-        left = mergeSort(left); // slice (start, end) end is "up to but not including"
+        left = mergeSort(left); 
         right = mergeSort(right);
     }
     if(!Array.isArray(left)) {
