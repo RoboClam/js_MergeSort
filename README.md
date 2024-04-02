@@ -5,4 +5,4 @@
     1. Write 50 arrays of 100 random integers into the file
     1. Return the arrays 
 1. Merge Sort the arrays
-1. Save the results into a file called results.json
+1. Save the results into a file called output.json
