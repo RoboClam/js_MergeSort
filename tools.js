@@ -6,9 +6,9 @@ module.exports = {
 
 function innerCreateData() {
     let list = [];
-    for(let i = 0; i < 50; i++) {
+    for(let i = 0; i < 5; i++) {
         let innerList = [];
-        for(let j = 0; j < 100; j++) {
+        for(let j = 0; j < 10; j++) {
             innerList.push(getRandomInt(0, 1000));
         }
         list.push(innerList);
